@@ -1,0 +1,96 @@
+body {
+    background-image: url('TXE.png');
+    background-size: cover; /* Resmi ekrana tam olarak yay */
+    background-position: center center; /* Resmi ekranın ortasına yerleştir */
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh; /* Sayfa yüksekliğini tam doldur */
+    margin: 0; /* Sayfa kenar boşluklarını sıfırlayalım */
+}
+.bar {
+    background-color: rgba(0, 0, 0, 0.6); /* Siyah renkte %60 opaklık */
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+header .logo{
+    font-size: 18px;
+    color: silver;
+}
+
+.chat-container {
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.chat-header {
+    background-color:rgba(150, 142, 142, 0.384);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.chat-box {
+    flex-grow: 1;
+    padding: 10px;
+    height: 80%;
+    overflow-y: auto;
+    border-top: 1px solid #ddd;
+}
+
+.input-box {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.input-box button {
+    background-color:rgba(150, 142, 142, 0.384) ;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.message {
+    margin: 5px 0;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.bot-message {
+    background-color: #e0e0e0;
+}
+
+.user-message {
+    background-color: white;
+    text-align: right;
+}       

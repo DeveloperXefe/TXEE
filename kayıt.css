@@ -1,0 +1,73 @@
+body {
+    background-image: url('TXE.png');
+    background-size: cover; /* Resmi ekrana tam olarak yay */
+    background-position: center center; /* Resmi ekranın ortasına yerleştir */
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh; /* Sayfa yüksekliğini tam doldur */
+    margin: 0; /* Sayfa kenar boşluklarını sıfırlayalım */
+}
+.bar {
+    background-color: rgba(0, 0, 0, 0.6); /* Siyah renkte %60 opaklık */
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+header .logo{
+    font-size: 18px;
+    color: silver;
+}
+.dosya{
+    background-color: rgba(196, 194, 194, 0.6);
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-content: center;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-45%);
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.dosya:hover{
+    transition: 0.5s;
+    border-radius: 10px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    border: 0;
+}
+button{
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 0;
+    transition: 1s;
+    box-shadow: 0 0 20px black;
+}
+button:hover{
+    width: 180px;
+    transition: 1s;
+}
+.social-icons a{
+    color: black;
+    border-radius: 2rem;
+    padding: 10px;
+    border: 3;
+    background-color:  rgba(190, 190, 190, 0.2);
+    font-size: 20px;
+}
